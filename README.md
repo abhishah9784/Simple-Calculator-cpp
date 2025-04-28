@@ -1,48 +1,37 @@
-#Calculator Project
-This is a basic Calculator program written in C++ that supports four main operations:
+# 🧮 C++ Calculator
 
-Addition
+A simple yet powerful **C++ Calculator** program that lets you perform basic arithmetic operations like addition, subtraction, multiplication, and division with ease. This program allows users to input multiple numbers and apply operations in a loop until they decide to exit. Perfect for learning C++ and creating your own custom calculator!
 
-Subtraction
+---
 
-Multiplication
+## 🚀 Features
+- **Addition**: Add numbers together easily.
+- **Subtraction**: Subtract values with one click.
+- **Multiplication**: Multiply numbers together efficiently.
+- **Division**: Perform division, with error handling for division by zero.
+- **Exit Option**: End the program when you're done calculating.
 
-Division
+---
 
-The user can input multiple numbers, and the program will perform the selected operations in a loop until the user chooses to exit.
+## 🖥️ How to Use
+1. **Clone or Download** the project files from the repository.
+2. Open your terminal and navigate to the project directory.
+3. **Compile the C++ file** using a C++ compiler:
+   ```bash
+   g++ Calculator.cpp -o calculator
+   ```
+4. **Run the program**:
+   ```bash
+   ./calculator
+   ```
+5. Enter your first number and choose the operation you want to perform from the menu.
+6. Keep inputting new numbers and performing operations until you're ready to exit by selecting option **5**.
 
-Features
-Addition: Adds two numbers.
+---
 
-Subtraction: Subtracts the second number from the first.
+## 🔥 Example Flow
 
-Multiplication: Multiplies two numbers.
-
-Division: Divides the first number by the second, with error handling for division by zero.
-
-Exit: Ends the program.
-
-How to Use
-Clone the repository or download the project files.
-
-Compile the C++ file using a C++ compiler like g++:
-
-bash
-Copy
-Edit
-g++ Calculator.cpp -o calculator
-Run the compiled program:
-
-bash
-Copy
-Edit
-./calculator
-Follow the on-screen instructions to perform operations. You can continuously enter numbers and choose operations until you choose to exit by selecting option 5.
-
-Example Usage
-bash
-Copy
-Edit
+```bash
 Enter the First Number: 10
 Choose the Operation You want to perform:
 1. Addition
@@ -51,8 +40,8 @@ Choose the Operation You want to perform:
 4. Multiplication
 5. Exit
 Enter choice: 1
-Input Next Number: 20
-Current Result: 30
+Input Next Number: 5
+Current Result: 15
 
 Choose the Operation You want to perform:
 1. Addition
@@ -63,10 +52,22 @@ Choose the Operation You want to perform:
 Enter choice: 3
 Input Next Number: 0
 Error! Division by zero is not possible.
-Current Result: 30
-Contributing
-Feel free to fork the project and submit pull requests for any improvements or suggestions. If you find any bugs, please open an issue.
+Current Result: 15
+```
 
-License
-This project is open source and available under the MIT License.
 
+## 💡 Why This Project?
+
+- **Learn the basics of C++**: Understand functions, loops, conditionals, and error handling.
+- **Improve your logic-building skills**: Get hands-on with real-time input/output and operations.
+- **Customize it**: Extend the functionality or improve the user interface as you learn more.
+
+
+## 🤝 Contributing
+
+This project is open for contributions! If you have suggestions for features or improvements, feel free to open an issue or submit a pull request. All contributions are welcome!
+
+
+## 📜 License
+
+This project is open source and available under the [MIT License](LICENSE). Feel free to use, modify, and share it!
